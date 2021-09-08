@@ -64,7 +64,7 @@ server.delete('/:id', (req, res) => { //delete
   res.send(true)
 })
 
-
+//criando um servidor
 server.listen(3050, () => {
   console.log('rodando servidor')
 })
